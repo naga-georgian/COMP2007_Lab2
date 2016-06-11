@@ -5,13 +5,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace COMP2007_Lab2
+namespace COMP2007_S2016_Lesson3B.User_Controls
 {
-    public partial class Navbar : System.Web.UI.UserControl
+
+    public partial class Jumbotron : System.Web.UI.UserControl
     {
+
+        [PersistenceMode(PersistenceMode.InnerProperty)]
+        public PlaceHolder BodyContent { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            content.Controls.Add(BodyContent);
         }
     }
 }

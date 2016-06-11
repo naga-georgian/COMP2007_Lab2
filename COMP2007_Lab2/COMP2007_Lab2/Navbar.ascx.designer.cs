@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP2007_Lab2 {
-    
-    
-    public partial class Navbar {
-        
+namespace COMP2007_S2016_Lesson3B
+{
+
+
+    public partial class Navbar
+    {
+
         /// <summary>
         /// home control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace COMP2007_Lab2 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
-        
+
         /// <summary>
         /// contact control.
         /// </summary>
