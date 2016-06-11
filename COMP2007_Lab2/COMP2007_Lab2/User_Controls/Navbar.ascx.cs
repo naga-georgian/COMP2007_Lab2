@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace COMP2007_S2016_Lesson3B.User_Controls
+namespace COMP2007_Lab2.User_Controls
 {
 
     public partial class Jumbotron : System.Web.UI.UserControl
