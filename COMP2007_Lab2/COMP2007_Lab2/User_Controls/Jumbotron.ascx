@@ -1,10 +1,10 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Jumbotron.ascx.cs" Inherits="COMP2007_Lab2.Jumbotron" %>
-
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Jumbotron.ascx.cs" Inherits="COMP2007_Lab2.User_Controls.Jumbotron" %>
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-offset-2 col-md-8">
-                <div class="jumbotron" id="content" runat="server"></div>           
+            <div class="jumbotron">
+                <h1 id="JumbotronH1" runat="server"></h1>
+            </div>
         </div>
     </div>
 </div>
-

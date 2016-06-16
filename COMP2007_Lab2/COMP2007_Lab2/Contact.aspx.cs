@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace COMP2007_Lab2
+namespace Comp2007_Lab2
 {
     public partial class Contact : System.Web.UI.Page
     {
@@ -16,7 +16,7 @@ namespace COMP2007_Lab2
 
         protected void SendButton_Click(object sender, EventArgs e)
         {
-            // you would replace this code with email processing code
+            //code that sends email goes here 
             Response.Redirect("Default.aspx");
         }
     }

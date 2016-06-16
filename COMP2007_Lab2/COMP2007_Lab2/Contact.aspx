@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007_Lab2.Contact" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Lab2.Contact" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
@@ -15,10 +15,10 @@
                     <div class="panel-body">
                         <address>
                             <strong>Naga Rimmalapudi</strong><br>
-                            237 Hickling Trail<br>
-                            Barrie, ON L4M 5W5<br>
+                            100 Toronto Drive<br>
+                            Barrie, ON L4N 5V1<br>
                             <abbr title="Phone">Tel:</abbr>
-                            (705) 999-0000
+                            (705) 123-5678
                         </address>
                     </div>
                 </div>
