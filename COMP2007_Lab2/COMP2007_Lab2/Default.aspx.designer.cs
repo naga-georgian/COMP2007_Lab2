@@ -10,7 +10,7 @@
 namespace COMP2007_Lab2 {
     
     
-    public partial class _default {
+    public partial class Default {
         
         /// <summary>
         /// Jumbotron control.
